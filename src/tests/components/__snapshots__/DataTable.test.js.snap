@@ -1,0 +1,1381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render DataTable correctly 1`] = `
+<div
+  className="ReactTable data-table -striped -highlight"
+  style={Object {}}
+>
+  <div
+    className="rt-table"
+    role="grid"
+  >
+    <div
+      className="rt-thead -headerGroups"
+      style={
+        Object {
+          "minWidth": "500px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "500 0 auto",
+              "maxWidth": null,
+              "width": "500px",
+            }
+          }
+          tabIndex="-1"
+        >
+          Greetings from Vaclav
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-thead -header"
+      style={
+        Object {
+          "minWidth": "500px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            ID
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Name
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th description rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Description
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Date
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Amount
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-thead -filters"
+      style={
+        Object {
+          "minWidth": "500px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <input
+            onChange={[Function]}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="rt-th"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <input
+            onChange={[Function]}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="rt-th description"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <input
+            onChange={[Function]}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="rt-th"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <input
+            onChange={[Function]}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="rt-th"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <input
+            onChange={[Function]}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-tbody"
+      style={
+        Object {
+          "minWidth": "500px",
+        }
+      }
+    >
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            3471DA17-401F-9633-BF81-4CADA6FD5C79
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Kyra Lester
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "Curabitur dictum. Phasellus in",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2017-07-23T04:24:49-07:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            345.54
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            9F5C9912-936A-FB85-1EDB-9DA87BE7FF1E
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Buckminster Alvarado
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "dui, in sodales elit erat vitae risus. Duis a mi",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2018-11-08T05:44:15-08:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            677.08
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            B743AC82-3613-13A2-2E42-E0C1F5CBF8A6
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Athena Smith
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "massa lobortis ultrices. Vivamus rhoncus.",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2018-11-11T06:19:57-08:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            73.67
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            74749D4F-A43F-34E8-A687-D54924B17251
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Cameron Thompson
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "dolor. Fusce mi lorem, vehicula et, rutrum eu,",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2019-09-30T06:56:15-07:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            807.6
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            DB983FEF-AF70-7D2E-86BA-0C2AE749E729
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Dawn Alford
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "Pellentesque ut ipsum",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2019-03-06T13:24:31-08:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            820.96
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            8E6F38E1-5DC7-5030-4513-8FBB237EF5DB
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Barclay Sears
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "sit amet ultricies sem magna",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2019-10-28T04:57:29-07:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            116.36
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            4891AA6C-02DF-A955-951C-9CEEC6D69387
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            James Melton
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2019-03-13T09:43:05-07:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            956.72
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            7BF06B3D-5DF2-9EEA-9E32-1BB284D0ABB9
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Medge Powell
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "elit sed",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2018-01-19T20:33:11-08:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            726.37
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            5DEB3210-1591-B14D-1D51-389F84099E84
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Lucas Ray
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "morbi tristique senectus",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2017-06-19T14:05:17-07:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            -439.33
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            96C6E014-B8DE-7ED0-B0D2-2D1577D2427C
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Wang Stevens
+          </div>
+          <div
+            className="rt-td description"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              contentEditable={true}
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "ipsum",
+                }
+              }
+              onBlur={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                }
+              }
+              suppressContentEditableWarning={true}
+            />
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            2018-02-12T09:36:23-08:00
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            638.14
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="pagination-bottom"
+  >
+    <div
+      className="-pagination"
+    >
+      <div
+        className="-previous"
+      >
+        <button
+          className="-btn"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Previous
+        </button>
+      </div>
+      <div
+        className="-center"
+      >
+        <span
+          className="-pageInfo"
+        >
+          Page
+           
+          <div
+            className="-pageJump"
+          >
+            <input
+              onBlur={[Function]}
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              type="number"
+              value={1}
+            />
+          </div>
+           
+          of
+           
+          <span
+            className="-totalPages"
+          >
+            1
+          </span>
+        </span>
+        <span
+          className="select-wrap -pageSizeOptions"
+        >
+          <select
+            onChange={[Function]}
+            value={10}
+          >
+            <option
+              value={5}
+            >
+              5
+               
+              rows
+            </option>
+            <option
+              value={10}
+            >
+              10
+               
+              rows
+            </option>
+            <option
+              value={20}
+            >
+              20
+               
+              rows
+            </option>
+            <option
+              value={25}
+            >
+              25
+               
+              rows
+            </option>
+            <option
+              value={50}
+            >
+              50
+               
+              rows
+            </option>
+            <option
+              value={100}
+            >
+              100
+               
+              rows
+            </option>
+          </select>
+        </span>
+      </div>
+      <div
+        className="-next"
+      >
+        <button
+          className="-btn"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="-loading"
+  >
+    <div
+      className="-loading-inner"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;
