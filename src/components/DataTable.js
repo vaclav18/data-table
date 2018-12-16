@@ -11,7 +11,12 @@ class DataTable extends React.Component {
     };
     this.custClass = props.custClass;
     this.custColumns = props.custColumns;
-    this.renderEditable = this.renderEditable.bind(this);
+    this.renderEditable = this.renderEditable.bind(this);   
+    this.custColumns[0].columns.forEach((element) => {
+        if (element.Cell === 'renderEditable') {
+          element.Cell = this.renderEditable      
+        }
+    });
   }
 
   renderEditable(cellInfo) {

@@ -5,6 +5,7 @@ import DataTable from './components/DataTable';
 import data from './DummyData/data';
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
@@ -33,7 +34,7 @@ class App extends Component {
                   headerClassName: 'description',
                   accessor: "Description",
                   className: "description",
-                  Cell: this.renderEditable,
+                  Cell: "renderEditable",
                   filterMethod: (filter, row) =>                   
                     row[filter.id].startsWith(filter.value)
                 },
